@@ -41,7 +41,7 @@ public class AddSbuUITest extends DriverIntialization
 	@Test
 	public void addsbubutton() throws InterruptedException 
 	{
-		 testCase = extent.createTest("1-ADD-SBU-BUTTON UI PROPERTIES");
+		 testCase = extent.createTest("Step1:- ADD-SBU-BUTTON UI PROPERTIES");
 			try {
 				boolean ExpectedTextVisible=true;
 				System.out.println("IsVisible");
@@ -430,7 +430,7 @@ public class AddSbuUITest extends DriverIntialization
  @Test
 	public void addsbumodel() throws InterruptedException  
 	{		
-	 testCase = extent.createTest("2-POPUP WINDOW UI PROPERTIES");
+	 testCase = extent.createTest("Step2:- POPUP WINDOW UI PROPERTIES");
 		//Model Window visible 
 	 			Thread.sleep(2000);
 			
@@ -653,7 +653,7 @@ public class AddSbuUITest extends DriverIntialization
 	@Test
 	public void addsbumodelsavebutton() throws InterruptedException 
 	{
-		testCase = extent.createTest("3-POPUP WINDOW SAVE BUTTON  UI PROPERTIES");
+		testCase = extent.createTest("Step3:- POPUP WINDOW SAVE BUTTON  UI PROPERTIES");
 			try {
 				boolean ExpectedTextVisible=true;
 				System.out.println("IsVisible");
@@ -1032,6 +1032,38 @@ public class AddSbuUITest extends DriverIntialization
 				testCase.log(Status.FAIL, "No Element");
 				testCase = extent.createTest("14.FONT-WEIGHT");
 			}
-	
+		
 	}
+	
+
+	
+//STEP-7 CHECK THE ENTERED VALUE HAS SAVED IN FIRST OF THE TABLE
+//LAST-ADDED-DATA
+ //@Test
+// public static  void checkLastAddvalue() throws InterruptedException{
+//
+//		
+//		
+//		Thread.sleep(2000);
+//		String actualdata = AddSbuUIPage.tablerow.getText();
+//		System.out.println("First row of table : " + actualdata);
+//
+//		
+//		String expecteddata = "sbu";
+//
+//		
+//		testCase = extent.createTest("1 CHECK THE ENTERED VALUE HAS SAVED IN FIRST OF THE TABLE");
+//		try {
+//			AssertJUnit.assertEquals(actualdata, expecteddata);
+//			testCase.log(Status.INFO, "Actual Data :- " + actualdata);
+//			testCase.log(Status.INFO, "Expected Data :- " + expecteddata);
+//			testCase.log(Status.PASS, "Correct last added data");
+//
+//		} catch (AssertionError e) {
+//			testCase.log(Status.INFO, "Actual Data :- " + actualdata);
+//			testCase.log(Status.INFO, "Expected Data :- " + expecteddata);
+//			testCase.log(Status.FAIL, "Wrong last added data");
+//		}
+//	}
+	
 }

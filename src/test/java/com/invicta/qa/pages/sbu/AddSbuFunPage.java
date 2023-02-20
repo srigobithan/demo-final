@@ -24,9 +24,10 @@ public class AddSbuFunPage {
 	@FindBy(id = "description")
 	public static WebElement SBUdestext;
 	
-	@FindBy(xpath = "/html/body/div[3]/div/div[2]/div/div[2]/div[3]/div/button[2]")
+	@FindBy(xpath = "//div[@class=\"ant-modal-footer\"]/div/button[@type=\"button\"][@class=\"ant-btn sc-gZMcBi dMdnOw\"]")
 	public static WebElement SBUsavebutton;
 	
+		
 	@FindBy(xpath = "//*[@id=\"rcDialogTitle0\"]/div/span")
 	public static WebElement SBUclose;
 	

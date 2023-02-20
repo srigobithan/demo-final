@@ -99,15 +99,18 @@ public static void start () throws InterruptedException {
 			AddSbuFunPage.SBUdestext.sendKeys(description);
 			
 			//Step8: Click on Add SBU Popup Window Save Button
-			Thread.sleep(3000);
-			AddSbuFunPage.SBU.click();
+//			Thread.sleep(3000);
+//			AddSbuFunPage.SBU.click();
+			
+			
 		}
+		
 			
 		}
 		
 	
 	//Click on Add SBU Popup Window Save Button
-	@AfterTest	
+	@AfterTest	 
 	public static void clicksave () throws InterruptedException {
 		
 		PageFactory.initElements(driver, table);

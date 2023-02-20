@@ -80,6 +80,7 @@ public class AddSbuUIPage {
 		@FindBy(xpath = "/html/body/div[3]/div/div[2]/div/div[2]")
 		public static WebElement addsbumodel;
 
-
+		@FindBy(xpath = "//div/table/tbody/tr[@class=\"ant-table-row ant-table-row-level-0\"]")
+		public static WebElement tablerow;
 		
 	}
