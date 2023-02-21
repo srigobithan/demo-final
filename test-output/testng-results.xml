@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-20T10:17:48Z" name="Default suite" finished-at="2023-02-20T10:18:22Z" duration-ms="33904">
+  <suite started-at="2023-02-20T12:30:39Z" name="Default suite" finished-at="2023-02-20T12:31:14Z" duration-ms="35665">
     <groups>
     </groups>
-    <test started-at="2023-02-20T10:17:48Z" name="Default test" finished-at="2023-02-20T10:18:22Z" duration-ms="33904">
-      <class name="com.invicta.qa.testcases.sbu.AddSbuUITest">
-        <test-method is-config="true" signature="main()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuUITest@33cbfa57]" started-at="2023-02-20T10:17:28Z" name="main" finished-at="2023-02-20T10:17:48Z" duration-ms="20431" status="PASS">
+    <test started-at="2023-02-20T12:30:39Z" name="Default test" finished-at="2023-02-20T12:31:14Z" duration-ms="35665">
+      <class name="com.invicta.qa.testcases.sbu.AddSbuFunTest">
+        <test-method is-config="true" signature="main()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuFunTest@6441c486]" started-at="2023-02-20T12:30:29Z" name="main" finished-at="2023-02-20T12:30:39Z" duration-ms="9120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method signature="Menu()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuUITest@33cbfa57]" started-at="2023-02-20T10:17:48Z" name="Menu" finished-at="2023-02-20T10:17:57Z" duration-ms="8059" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuFunTest@6441c486]" started-at="2023-02-20T12:30:39Z" name="start" finished-at="2023-02-20T12:30:49Z" duration-ms="10001" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Menu -->
-        <test-method signature="addsbubutton()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuUITest@33cbfa57]" started-at="2023-02-20T10:17:57Z" name="addsbubutton" finished-at="2023-02-20T10:17:59Z" duration-ms="2800" status="PASS">
+        </test-method> <!-- start -->
+        <test-method signature="sbudata()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuFunTest@6441c486]" started-at="2023-02-20T12:30:49Z" name="sbudata" finished-at="2023-02-20T12:31:10Z" duration-ms="21499" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addsbubutton -->
-        <test-method signature="addsbumodel()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuUITest@33cbfa57]" started-at="2023-02-20T10:17:59Z" name="addsbumodel" finished-at="2023-02-20T10:18:20Z" duration-ms="20524" status="PASS">
+        </test-method> <!-- sbudata -->
+        <test-method is-config="true" signature="clicksave()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuFunTest@6441c486]" started-at="2023-02-20T12:31:10Z" name="clicksave" finished-at="2023-02-20T12:31:14Z" duration-ms="4136" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addsbumodel -->
-        <test-method signature="addsbumodelsavebutton()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuUITest@33cbfa57]" started-at="2023-02-20T10:18:20Z" name="addsbumodelsavebutton" finished-at="2023-02-20T10:18:20Z" duration-ms="397" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addsbumodelsavebutton -->
-        <test-method signature="checkLastAddvalue()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuUITest@33cbfa57]" started-at="2023-02-20T10:18:20Z" name="checkLastAddvalue" finished-at="2023-02-20T10:18:22Z" duration-ms="2058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLastAddvalue -->
-        <test-method is-config="true" signature="closeChrome()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuUITest@33cbfa57]" started-at="2023-02-20T10:18:22Z" name="closeChrome" finished-at="2023-02-20T10:18:23Z" duration-ms="606" status="PASS">
+        </test-method> <!-- clicksave -->
+        <test-method is-config="true" signature="closeChrome()[pri:0, instance:com.invicta.qa.testcases.sbu.AddSbuFunTest@6441c486]" started-at="2023-02-20T12:31:14Z" name="closeChrome" finished-at="2023-02-20T12:31:15Z" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChrome -->
-      </class> <!-- com.invicta.qa.testcases.sbu.AddSbuUITest -->
+      </class> <!-- com.invicta.qa.testcases.sbu.AddSbuFunTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

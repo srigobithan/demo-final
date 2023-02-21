@@ -37,6 +37,7 @@ public class AddSbuFunTest extends DriverIntialization{
 	static AddSbuFunPage table = new AddSbuFunPage();
 			
 	static AddSbuUITest UI = new AddSbuUITest();
+	public static String sbu = null;
 	
 @BeforeTest
 public static void start () throws InterruptedException { 
@@ -78,6 +79,7 @@ public static void start () throws InterruptedException {
 				Button Width, Button Font-weight)*/
 		UI.addsbumodelsavebutton();
 		
+		
 		//Step5: Enter the excel sheet data into popup window form
 		PageFactory.initElements(driver, table);
 		FileInputStream file = new FileInputStream("C:\\Users\\hp\\eclipse-workspace\\qdms-auto\\automation\\QDMS-AUTOMATION\\src\\test\\resources\\Excel-sheets\\QDMS.xlsx");
@@ -88,7 +90,7 @@ public static void start () throws InterruptedException {
 			
 			XSSFRow row = sheet.getRow(i);
 
-			String sbu = (String) row.getCell(0).getStringCellValue();
+			 sbu = (String) row.getCell(0).getStringCellValue();
 			String description = (String) row.getCell(1).getStringCellValue();
 			
 			
@@ -118,6 +120,8 @@ public static void start () throws InterruptedException {
 		
 		//Step9: Click on Add SBU Popup Window Save Button
 		AddSbuFunPage.SBUsavebutton.click();
+		
+		UI.checkLastAddvalue();
 	}
 
 }
